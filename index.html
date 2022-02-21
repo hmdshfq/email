@@ -43,14 +43,43 @@
                 display: inline-block;
                 vertical-align: top;
             }
-			.button{
-				background-color: #289dcf;
-				color: #ffffff;
-				text-decoration: none;
-				padding: 12px 20px;
-				font-weight: bold;
-				border-radius: 5px;
-			}
+            .two-columns.last {
+                padding: 35px 0;
+            }
+            .two-columns .padding {
+                padding: 20px;
+            }
+            .two-columns .content {
+                font-size: 15px;
+                line-height: 20px;
+                text-align: left;
+            }
+            .three-columns {
+                text-align: center;
+                font-size: 0;
+                padding: 35px 0 20px;
+            }
+            .three-columns .column {
+                width: 100%;
+                max-width: 200px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            .three-columns .padding {
+                padding: 15px;
+            }
+            .three-columns .content {
+                font-size: 15px;
+                line-height: 20px;
+            }
+            .button {
+                background-color: #289dcf;
+                color: #ffffff;
+                text-decoration: none;
+                padding: 12px 20px;
+                font-weight: bold;
+                border-radius: 5px;
+            }
         </style>
     </head>
     <body>
@@ -132,7 +161,7 @@
                             ><img
                                 src="/images/banner.jpg"
                                 alt=""
-                                style="display: block; width: 100%"
+                                style="width: 100%"
                         /></a>
                     </td>
                 </tr>
@@ -148,35 +177,329 @@
                                         >Course</strong
                                     >
                                 </p>
-								<p style="line-height: 1.6; padding=5px 0 15px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, maxime! Animi quae voluptatum perspiciatis, facere cupiditate possimus dignissimos at assumenda maiores laborum dolores incidunt dolorum voluptates sapiente porro necessitatibus nemo.</p>
-								<a href="#" class="button">View Course</a>
+                                <p
+                                    style="line-height: 1.6; padding=5px 0 15px;"
+                                >
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Temporibus, maxime! Animi
+                                    quae voluptatum perspiciatis, facere
+                                    cupiditate possimus dignissimos at assumenda
+                                    maiores laborum dolores incidunt dolorum
+                                    voluptates sapiente porro necessitatibus
+                                    nemo.
+                                </p>
+                                <a href="#" class="button">View Course</a>
                             </td>
                         </table>
                     </td>
                 </tr>
 
                 <!-- BLUE BORDER -->
+                <tr>
+                    <td height="2" style="background-color: #a6d8ee"></td>
+                </tr>
 
                 <!-- THREE COLUMN SECTION -->
                 <tr>
                     <td>
-                        <table width="100%"></table>
+                        <table width="100%">
+                            <tr>
+                                <td class="three-columns">
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#"
+                                                                ><img
+                                                                    src="/images/ecommerce.jpg"
+                                                                    alt=""
+                                                                    width="110px"
+                                                                    style="
+                                                                        max-width: 100%;
+                                                                        border-radius: 55px;
+                                                                    "
+                                                            /></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td
+                                                            style="
+                                                                padding: 10px;
+                                                            "
+                                                        >
+                                                            <p
+                                                                style="
+                                                                    font-weight: bold;
+                                                                "
+                                                            >
+                                                                Ecommerce
+                                                            </p>
+                                                            <p>
+                                                                Lorem ipsum
+                                                                dolor sit amet
+                                                                consectetur,
+                                                                adipisicing
+                                                                elit. Harum
+                                                                dolor
+                                                                exercitationem
+                                                                dolorem quis.
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#"
+                                                                ><img
+                                                                    src="/images/web-design.jpg"
+                                                                    alt=""
+                                                                    width="110px"
+                                                                    style="
+                                                                        max-width: 100%;
+                                                                        border-radius: 55px;
+                                                                    "
+                                                            /></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td
+                                                            style="
+                                                                padding: 10px;
+                                                            "
+                                                        >
+                                                            <p
+                                                                style="
+                                                                    font-weight: bold;
+                                                                "
+                                                            >
+                                                                Web Design
+                                                            </p>
+                                                            <p>
+                                                                Lorem ipsum
+                                                                dolor sit amet
+                                                                consectetur,
+                                                                adipisicing
+                                                                elit. Harum
+                                                                dolor
+                                                                exercitationem
+                                                                dolorem quis.
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#"
+                                                                ><img
+                                                                    src="/images/email-design.jpg"
+                                                                    alt=""
+                                                                    width="110px"
+                                                                    style="
+                                                                        max-width: 100%;
+                                                                        border-radius: 55px;
+                                                                    "
+                                                            /></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td
+                                                            style="
+                                                                padding: 10px;
+                                                            "
+                                                        >
+                                                            <p
+                                                                style="
+                                                                    font-weight: bold;
+                                                                "
+                                                            >
+                                                                HTML Email
+                                                            </p>
+                                                            <p>
+                                                                Lorem ipsum
+                                                                dolor sit amet
+                                                                consectetur,
+                                                                adipisicing
+                                                                elit. Harum
+                                                                dolor
+                                                                exercitationem
+                                                                dolorem quis.
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
 
                 <!-- BLUE BORDER -->
+                <tr>
+                    <td height="2" style="background-color: #a6d8ee"></td>
+                </tr>
 
                 <!-- TWO COLUMN SECTION -->
                 <tr>
                     <td>
-                        <table width="100%"></table>
+                        <table width="100%">
+                            <tr>
+                                <td class="two-columns last">
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#"
+                                                                ><img
+                                                                    src="/images/palette.jpg"
+                                                                    alt=""
+                                                                    width="260px"
+                                                                    style="
+                                                                        max-width: 100%;
+                                                                    "
+                                                            /></a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <p
+                                                                style="
+                                                                    font-size: 17px;
+                                                                    font-weight: bold;
+                                                                "
+                                                            >
+                                                                Create Custom
+                                                                Designs
+                                                            </p>
+                                                            <p>
+                                                                Lorem ipsum
+                                                                dolor sit amet
+                                                                consectetur,
+                                                                adipisicing
+                                                                elit. Unde
+                                                                magni, a iure
+                                                                fugiat natus
+                                                                aliquam
+                                                            </p>
+                                                            <p
+                                                                style="
+                                                                    padding-bottom: 15px;
+                                                                "
+                                                            >
+                                                                Lorem ipsum
+                                                                dolor, sit amet
+                                                                consectetur
+                                                                adipisicing
+                                                                elit.
+                                                            </p>
+                                                            <a
+                                                                href="#"
+                                                                class="button"
+                                                                >Read More</a
+                                                            >
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
 
                 <!-- FOOTER SECTION -->
                 <tr>
-                    <td>
-                        <table width="100%"></table>
+                    <td style="background-color: #565656; color: #ffffff">
+                        <table width="100%">
+                            <tr>
+                                <td
+                                    style="
+                                        text-align: center;
+                                        padding: 45px 20px;
+                                    "
+                                >
+                                    <a href="#"
+                                        ><img
+                                            src="/images/insight-white.png"
+                                            alt=""
+                                            width="160px"
+                                    /></a>
+                                    <p style="padding: 10px">
+                                        Insight HTML Email
+                                    </p>
+                                    <p style="padding: 10px">
+                                        123 Street Road, City, State, 55555
+                                    </p>
+                                    <a href="#"
+                                        ><img
+                                            src="/images/white-facebook.png"
+                                            alt=""
+                                            width="30"
+                                    /></a>
+                                    <a href="#"
+                                        ><img
+                                            src="/images/white-twitter.png"
+                                            alt=""
+                                            width="30"
+                                    /></a>
+                                    <a href="#"
+                                        ><img
+                                            src="/images/white-youtube.png"
+                                            alt=""
+                                            width="30"
+                                    /></a>
+                                    <a href="#"
+                                        ><img
+                                            src="/images/white-instagram.png"
+                                            alt=""
+                                            width="30"
+                                    /></a>
+                                    <a href="#"
+                                        ><img
+                                            src="/images/white-linkedin.png"
+                                            alt=""
+                                            width="30"
+                                    /></a>
+                                    <p style="padding: 10px">
+                                        Subscribe
+                                    </p>
+                                </td>
+                            </tr>
+
+							<tr>
+								<td height="10" style="background-color: #289dcf;"></td>
+							</tr>
+                        </table>
                     </td>
                 </tr>
             </table>
