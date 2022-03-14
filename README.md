@@ -1,1 +1,1 @@
-# email
+# HTML email template design
